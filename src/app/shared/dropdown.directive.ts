@@ -4,7 +4,7 @@ import { log } from 'util';
 @Directive({
   selector: '[appDropdown]'
 })
-export class DropdownDiretive {
+export class DropdownDirective {
   @HostBinding('class.open') isOpen = false;
   
   @HostListener('click') toggleOpen() {
